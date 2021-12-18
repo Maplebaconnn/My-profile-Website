@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  text-align: center;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 48%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.content {
+  max-width: 960px;
+  margin: auto;
+}
+body {background-color: #f0f2f4;}
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+</style>
+</head>
+<body> 
+
+<div class="content">
+	<div id="navbar">
+		<a href="file:///C:/Users/Sam/Desktop/RMIT/intro_IT/my_profile_website/github%20upload/index.html">Profile</a>
+		<a href="file:///C:/Users/Sam/Desktop/RMIT/intro_IT/my_profile_website/github%20upload/interest_in_IT.html">Interest in IT</a>
+		<a href="file:///C:/Users/Sam/Desktop/RMIT/intro_IT/my_profile_website/github%20upload/ideal_job.html">Ideal Job</a>
+		<a href="file:///C:/Users/Sam/Desktop/RMIT/intro_IT/my_profile_website/github%20upload/personality.html">Personality</a>
+		<a href="file:///C:/Users/Sam/Desktop/RMIT/intro_IT/my_profile_website/github%20upload/project.html">Project Idea</a>
+	</div>
+	<div class="center">
+			<h1>My Profile</h1>
+				<p><b>Personal Information</b></p>
+					<div class="row">
+						<div class="column">
+							<img src="file:///C:/Users/Sam/Desktop/RMIT/intro_IT/my_profile_website/github%20upload/Casual_photo_of_me.jpg" alt="me" style="width:100%">
+						</div>
+						<div class="column">
+							<p>
+							My name is Sam Anderson, I currently live in Melbourne, and I speak only English. I was born in Albury which is a regional town on the border of Victoria and New South Wales. I am a fifth-generation Australian with my family origins tracing back to Scotland, England, and France. I completed year 12 in 2009 and have completed a certificate IV in credit management since. I currently work for a chemical company in Melbourne where I interact with gas detection technology daily. 
+							</p>		
+							<p>
+							In my spare time, I like to spend time with my partner Chloe and my two Dachshunds Maple and Hue. Aside from this, I spend a lot of my free time learning about different things on the internet and playing video games.
+							</p>
+							<p>
+							Student ID: s3934463
+							</p>
+							<p>
+							Student Email: S3934463@student.rmit.edu.au
+							</p> 
+						</div>
+					</div>
+		</div>
+</div>
+</body>
+</html>
